@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_1"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<!--            android:backgroundTint="@color/black"-->
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="John Clark                                  $4,500            #empid121                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView365"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Mark luise                                  $8,900            #empid131                              Pending!!"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView653"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Harry Stark                                  $500            #empid190                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Shawn Mendes                          $8,590            #empid134                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Pattrick Clark                              $9,500            #empid221                                Pending!!"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Ron Mars                                     $3,200            #empid321                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#40FF6347"
+            android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+            android:drawablePadding="10dp"
+            android:text="John Depp                                  $45,500            #empid991                             Subbmited"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+            <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#40FF6347"
+            android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+            android:drawablePadding="10dp"
+            android:text="Kevin Troll                                  $2,500            #empid441                               Pending!!
+"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Deep Behl                                  $4,500            #empid721                               Pending!!"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Marine Toe                                  $3,500            #empid181                               Pending!!"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#40FF6347"
+            android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+            android:drawablePadding="10dp"
+            android:text="Sam Cyan                                   $9,500            #empid011                             Subbmited"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Mary Clinsson                           $1,500            #empid989                              Pending"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Lorry Tine                                  $14,500            #empid101                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Mike Richard                             $7,500            #empid161                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Moore Sen                                  $2,500            #empid321                               Pending"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:backgroundTint="#40FF6347"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+                android:drawablePadding="10dp"
+                android:text="Mile Clark                                  $41,500            #empid101                             Subbmited"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

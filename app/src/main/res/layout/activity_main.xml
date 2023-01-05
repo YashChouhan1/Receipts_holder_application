@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FFD2691e"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="254dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Online"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FF2f2f2f"
+            android:contentDescription="@string/app_name"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="#BEC7F1"
+            app:tabIndicatorHeight="1.5dp"
+            app:tabMode="fixed" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar_layout"
+        android:background="#FAF6F6"
+        android:contentDescription="@string/app_name"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFD2691e"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="150dp"
+            android:layout_height="53dp"
+            android:backgroundTint="#FF2f2f2f"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>
